@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { FileText, Leaf } from 'lucide-react-native';
-import Header from '@/syncmobile/components/Header';
+import Header from '@/components/Header';
 
 export default function PaperlessScreen() {
   return (

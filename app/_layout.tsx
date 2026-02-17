@@ -3,8 +3,8 @@ import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { View, ActivityIndicator } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { AuthProvider, useAuth } from '@/syncmobile/context/AuthContext';
-import { useFrameworkReady } from '@/syncmobile/hooks/useFrameworkReady';
+import { AuthProvider, useAuth } from '@/context/AuthContext';
+import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 
 function RootLayoutNav() {
   const { session, loading } = useAuth();

@@ -11,8 +11,8 @@ import {
   Alert,
 } from 'react-native';
 import { Search, Plus, User, Phone, Mail, X, Pencil } from 'lucide-react-native';
-import Header from '@/syncmobile/components/Header';
-import { supabase } from '@/syncmobile/lib/supabase';
+import Header from '@/components/Header';
+import { supabase } from '@/lib/supabase';
 import { Patient } from '@/types/database';
 
 export default function PatientsScreen() {

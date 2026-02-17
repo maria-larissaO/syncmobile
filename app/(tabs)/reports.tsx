@@ -16,9 +16,9 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react-native';
-import Header from '@/syncmobile/components/Header';
-import StatCard from '@/syncmobile/components/StatCard';
-import { supabase } from '@/syncmobile/lib/supabase';
+import Header from '@/components/Header';
+import StatCard from '@/components/StatCard';
+import { supabase } from '@/lib/supabase';
 
 export default function ReportsScreen() {
   const [loading, setLoading] = useState(true);

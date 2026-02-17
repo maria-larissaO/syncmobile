@@ -10,7 +10,7 @@ import {
     Image,
 } from 'react-native';
 import { Link, useRouter } from 'expo-router';
-import { supabase } from '@/syncmobile/lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Lock, Mail } from 'lucide-react-native';
 
 export default function LoginScreen() {

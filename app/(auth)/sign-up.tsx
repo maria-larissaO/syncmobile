@@ -9,7 +9,7 @@ import {
     Alert,
 } from 'react-native';
 import { Link, useRouter } from 'expo-router';
-import { supabase } from '@/syncmobile/lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Lock, Mail, User, Phone } from 'lucide-react-native';
 
 export default function SignUpScreen() {

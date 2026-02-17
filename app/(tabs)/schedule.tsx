@@ -23,8 +23,8 @@ import {
   Users,
   Check,
 } from 'lucide-react-native';
-import Header from '@/syncmobile/components/Header';
-import { supabase } from '@/syncmobile/lib/supabase';
+import Header from '@/components/Header';
+import { supabase } from '@/lib/supabase';
 import { Appointment } from '@/types/database';
 
 interface Patient {
